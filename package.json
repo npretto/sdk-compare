@@ -12,12 +12,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@metabase/embedding-sdk-react": "file:../metabase/resources/embedding-sdk",
     "concurrently": "^9.1.2",
     "jsonwebtoken": "^9.0.2",
+    "npm-53": "npm:@metabase/embedding-sdk-react@53-stable",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.1.5",
-    "npm-53": "npm:@metabase/embedding-sdk-react@53-stable",
     "sdk-local": "file:../metabase/resources/embedding-sdk",
     "tsx": "^4.19.2"
   },
